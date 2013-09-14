@@ -1,0 +1,106 @@
+ body {
+   padding-left: 0;
+   padding-right: 0;
+ }
+ /* This makes absolutely positioned elements like p, h1,
+     and some bootstrap elements placed properly. */
+ #absolute-wrapper p, #absolute-wrapper h1, #absolute-wrapper h2, #absolute-wrapper h3, #absolute-wrapper h4, #absolute-wrapper h5, #absolute-wrapper h6 {
+   margin-top: 0 !important;
+ }
+ #absolute-wrapper {
+   position: relative;
+   width: 980px;
+   margin: 0 auto;
+   height: 1px;
+ }
+ #absolute-wrapper .btn {
+   background: transparent;
+   width: 68px;
+   height: 30px;
+   position: absolute;
+   top: 258px;
+   left: -169px;
+ }
+ .container-fluid .well.well-1 {
+   margin: 0px;
+ }
+ .container-fluid .well {
+   border-radius: 0px;
+   border: none;
+ }
+ .container-fluid .well.well-2 {
+   background: #34495e;
+ }
+ .container-fluid .well.well-3 {
+   padding: 0px;
+   background: #1abc9c;
+ }
+ .container-fluid .well.well-1.well-3 .page-header {
+   padding: 0px;
+   margin: 0px;
+ }
+ .container-fluid .well.well-1.well-3 .page-header h1 {
+   color: #f6eeee;
+   text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.701961);
+ }
+ .container-fluid .well.well-1.well-3 .page-header h1 span {
+   color: #34495e;
+ }
+ .container-fluid .well.well-1.well-3 .well.well-1 {
+   background: #ecf0f1;
+ }
+ .container-fluid .well.well-1.well-3 .well.well-1 .container .row-fluid .span7 .well.well-2 div p.p-1 {
+   font-size: 24px;
+   color: #f9f3f3;
+ }
+ .container-fluid .well.well-1.well-3 .well.well-1 .container .row-fluid .span7 .well.well-2 div p.p-2 {
+   font-size: 20px;
+   color: #f7e7e7;
+   text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.701961);
+ }
+ .container-fluid .well.well-1.well-3 .well.well-1 .container .row-fluid .span4 form input.textinput.textinput-1 {
+   border: none;
+   border-radius: 0px;
+ }
+ .container-fluid .well.well-1.well-3 .well.well-1 .container .row-fluid .span4 .btn-primary {
+   background: #0088cc;
+   background-image: -moz-linear-gradient(270deg, #0088cc 0%, #0044cc 100%);
+   background-image: -webkit-linear-gradient(270deg, #0088cc 0%, #0044cc 100%);
+   background-image: -o-linear-gradient(270deg, #0088cc 0%, #0044cc 100%);
+   background-image: linear-gradient(180deg, #0088cc 0%, #0044cc 100%);
+   border-radius: 0px;
+ }
+ .container-fluid .well.well-1.well-3 .well.well-1 .container .row-fluid .span4 .checkbox {
+   font-size: 11px;
+   height: 20px;
+   width: 78px;
+ }
+ .container-fluid .well.well-1.well-3 .well.well-1 .container .row-fluid .span4 .control-label.control-label-1 {
+   font-size: 11px;
+   height: 20px;
+   width: 96px;
+ }
+ .container-fluid .well.well-1.well-3 .well.well-1 .container .row-fluid .span4 .heading {
+   text-align: center;
+ }
+ .container-fluid .well.well-1.well-3 .well.well-1 .container .row-fluid .span4 .icon.icon-road {
+   font-size: 100px;
+   margin: 1px 0px 0px 100px;
+   height: 100px;
+   width: 100px;
+ }
+ .container-fluid .well.well-1.well-3 .well.well-1 .container .row-fluid .span4 .icon.icon-bar-chart {
+   margin: 1px 0px 0px 100px;
+   font-size: 100px;
+   height: 100px;
+   width: 100px;
+ }
+ .container-fluid .well.well-1.well-3 .well.well-1 .container .row-fluid .span4 .icon.icon-trophy {
+   font-size: 100px;
+   margin: 1px 0px 0px 100px;
+   height: 100px;
+   width: 100px;
+ }
+ .container-fluid.container-fluid-1 {
+   background: rgba(52, 73, 94, 0);
+ }
